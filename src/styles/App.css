@@ -1,0 +1,33 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  width: 100%;
+  max-width: 1500px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+  .App {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cv-preview {
+    font-size: .7rem;
+    span {
+      font-size: 1rem;
+    }
+  }
+
+}
